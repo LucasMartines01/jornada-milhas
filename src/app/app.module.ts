@@ -7,12 +7,16 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { HeaderComponent } from './shared/header/header.component';
 import {MatButtonModule} from '@angular/material/button';
 import { BannerComponent } from './shared/banner/banner.component';
+import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BannerComponent
+    BannerComponent,
+    ContainerComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
